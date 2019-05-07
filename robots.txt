@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://aisaoghohs.jveldridge.com/sitemap.xml
